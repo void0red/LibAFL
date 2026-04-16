@@ -93,14 +93,14 @@ spin = { version = "0.10.0", default-features = false, features = [
   "mutex",
   "spin_mutex",
 ] }
-syscalls = { version = "0.7.0", default-features = false, optional = true }
+syscalls = { version = "0.8.1", default-features = false, optional = true }
 thiserror = { version = "2.0.16", default-features = false }
 ahash = { workspace = true, default-features = false }
 hashbrown = { workspace = true, default-features = false }
 stdint = "1.0.0"
 
 [build-dependencies]
-cc = { version = "1.2.52" }
+cc = { version = "1.2.53" }
 build-target = "0.8.0"
 libc = "0.2.179"
 rand = "0.9.2"
